@@ -3,6 +3,7 @@ var Grunticon = require('grunticon-lib');
 var glob = require('glob');
 var RSVP = require('rsvp');
 var Funnel = require('broccoli-funnel');
+var merge = require('merge');
 
 var config = {
     src: "grunticon/icons/+(*.svg|*.png)",
