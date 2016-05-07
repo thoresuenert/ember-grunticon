@@ -36,6 +36,20 @@ var app = new EmberApp(defaults, {
 });
 ```
 
+Example for css usage:
+
+```sass
+.icon {
+  vertical-align: middle;
+  background-position: center center;
+  display: inline-block;
+  &--edit {
+    width: 12px;
+    height: 14px;
+    background-size: 100%;
+  }
+}
+```
 ## General
 
 This is my first addon for ember at all.
