@@ -45,6 +45,7 @@
     "ember-cli-babel": "^5.1.5",
     "glob": "^7.0.3",
     "grunticon-lib": "^1.0.4",
+    "merge": "^1.2.0",
     "rsvp": "^3.2.1"
   },
   "ember-addon": {
