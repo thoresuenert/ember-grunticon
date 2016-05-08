@@ -50,6 +50,15 @@ Example for css usage:
   }
 }
 ```
+
+To prevent build infinite loop because of grunticon builds add following line to watchman config:
+```yaml
+{
+  "ignore_dirs": ["tmp", "dist", "grunticon/build"]
+}
+```
+**Hint:** use watchman ^4.0
+
 ## General
 
 This is my first addon for ember at all.
